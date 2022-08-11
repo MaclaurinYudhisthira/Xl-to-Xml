@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="shortcut icon" href="./ic.ico" type="image/x-icon">
+    <title>xl2xml</title>
+    <script type="text/javascript" src="/eel.js"></script>
+  </head>
+  <body>
+    <div class="container mt-4 mb-4 pl-5 pr-5">
+      <h1>Convert .xlsx to .xml</h1>
+        <form>
+            <div class="form-group">
+              <label for="input_file_path">Input file path</label>
+              <input type="text" class="form-control" id="input_file_path" aria-describedby="emailHelp" placeholder="Enter input file path" required>
+              <small id="emailHelp" class="form-text text-muted">Provide path to the .xlsx file</small>
+            </div>
+            <div class="form-group">
+                <label for="output_file_path">Output file path</label>
+                <input type="text" class="form-control" id="output_file_path" aria-describedby="emailHelp" placeholder="Enter output file path" required>
+                <small id="emailHelp" class="form-text text-muted">Provide desired output .xml filr path</small>
+            </div>
+            <div class="form-group">
+                <label for="operation_name">Operation name</label>
+                <input type="text" class="form-control" id="operation_name" aria-describedby="emailHelp" placeholder="Enter operation name" required>
+                <small id="emailHelp" class="form-text text-muted">Provide desired output .xml filr path</small>
+            </div>
+            <button type="submit" class="btn btn-primary" id="btn">Submit</button>
+        </form>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./bootstrap/js/jquery-3.3.1.slim.js"></script>
+    <script src="./bootstrap/js/popper.js"></script>
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./bootstrap/js/main.js"></script>
+  </body>
+</html>
